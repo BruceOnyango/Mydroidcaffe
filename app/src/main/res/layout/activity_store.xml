@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".StoreActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/droid_caffe_stores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- change drawable configurations later -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/galleria"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:id="@+id/area_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/galleria"
+                android:layout_marginTop="4dp"
+                android:background="@color/css_grey"
+                android:padding="10dp"
+                android:text="@string/galleria"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#ffff00"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <TextView
+                android:id="@+id/donut_prep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/area_title"
+                android:layout_marginTop="4dp"
+                android:drawableStart="@drawable/open_time"
+                android:drawableLeft="@drawable/open_time"
+                android:padding="10dp"
+                android:text="@string/open_daily_from_7_00_a_m"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="?android:textColorSecondary"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+            <TextView
+                android:id="@+id/area_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/donut_prep"
+                android:layout_marginTop="3dp"
+                android:padding="8dp"
+                android:text="@string/galleria_image_description"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:textColor="@color/navy_blue"
+                android:textStyle="italic"
+                android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <!-- Add a horizontal line-->
+            <View
+                android:id="@+id/donut_divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/donut_prep"
+                android:background="@color/coral" />
+
+            <android.widget.RatingBar
+                android:id="@+id/myRatingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/area_description"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="4"
+                android:theme="@style/RatingBar"
+
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/myRatingBar"
+                android:orientation="horizontal"
+
+                >
+
+                <TextView
+                    android:id="@+id/social_icons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/myRatingBar"
+                    android:layout_marginTop="4dp"
+                    android:drawableStart="@drawable/ic_favourite"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+
+                    android:padding="10dp"
+                    android:text="Like"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="?android:textColorSecondary"
+                    android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+                <TextView
+                    android:id="@+id/social_icons1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/myRatingBar"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="4dp"
+                    android:drawableStart="@drawable/ic_comment"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+
+                    android:padding="10dp"
+                    android:text="comment"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="?android:textColorSecondary"
+                    android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+                <TextView
+                    android:id="@+id/social_icons2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/myRatingBar"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="4dp"
+                    android:drawableStart="@drawable/ic_share"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:onClick="share_view"
+                    android:padding="10dp"
+                    android:text="share"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="?android:textColorSecondary"
+                    android:theme="@style/ThemeOverlay.AppCompat.Light"
+
+
+                    />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/droid_caffe_stores">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/navy_blue"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

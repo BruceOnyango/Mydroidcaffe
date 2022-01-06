@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">Mydroidcaffe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello dessert recipe fragment</string>
+    <string name="hello_stores_fragment">Hello stores fragment</string>
+    <string name="tab_label_1">Desserts</string>
+    <string name="tab_label_2">Pastries</string>
+    <string name="tab_label_3">Stores</string>
+    <string name="desserts_recipes">Dessert Recipies</string>
+    <string name="browse_recipes">Browse Recipies</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_cook_time_2hrs">Prep and Cook Time: 2hrs></string>
+    <string name="recipe_short_description">Recipe short description</string>
+    <string name="how_to_prepare_donuts">How to prepare donuts</string>
+    <string name="pastries_recipe">Pastries Recipe</string>
+    <string name="browse_pastry_recipes">Browse pastry Recipes</string>
+    <string name="droid_caffe_stores">Droid caffe Stores</string>
+    <string name="rate_our_stores">Rate our stores</string>
+    <string name="galleria">Galleria</string>
+    <string name="galleria_image_description">Enjoy the outside seating at Galleria
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</string>
+    <string name="open_daily_from_7_00_a_m">Open Daily from 7:00 a.m</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="pizza">Pizza</string>
+
+    <array name="desserts_images">
+        <item>@drawable/donutpng1</item>
+        <item>@drawable/froyopng1</item>
+        <item>@drawable/icecreamsandwich5</item>
+        <item>@drawable/donutpng1</item>
+        <item>@drawable/froyopng1</item>
+        <item>@drawable/icecreamsandwich5</item>
+        <item>@drawable/donutpng1</item>
+        <item>@drawable/froyopng1</item>
+        <item>@drawable/icecreamsandwich5</item>
+
+    </array>
+    <array name="store_images">
+        <item>@drawable/artcaffe</item>
+        <item>@drawable/bistro</item>
+        <item>@drawable/gardencity</item>
+        <item>@drawable/artcaffe</item>
+        <item>@drawable/bistro</item>
+        <item>@drawable/gardencity</item>
+        <item>@drawable/artcaffe</item>
+        <item>@drawable/bistro</item>
+        <item>@drawable/gardencity</item>
+
+
+    </array>
+
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+
+    </string-array>
+    <string-array name="area_title">
+        <item>galleria</item>
+        <item>Bistro</item>
+        <item>Garden City</item>
+        <item>galleria</item>
+        <item>Bistro</item>
+        <item>Garden City</item>
+        <item>galleria</item>
+        <item>Bistro</item>
+        <item>Garden City</item>
+
+
+    </string-array>
+
+    <string-array name="dessert_description">
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice creams have your desired flavours and fillings</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice creams have your desired flavours and fillings</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice creams have your desired flavours and fillings</item>
+
+    </string-array>
+
+    <string-array name="store_description">
+        <item>Enjoy the outside seating at Galleria
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Bistro
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Garden city
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Galleria
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Bistro
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Garden city
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Galleria
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Bistro
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+        <item>Enjoy the outside seating at Garden city
+        conveniently in the centre of the mall to enjoy a coffee after shopping,family
+        meal or evening cocktail.Read more…</item>
+
+    </string-array>
+    <array name="pastry_images">
+        <item>@drawable/donutpng1</item>
+        <item>@drawable/froyopng1</item>
+        <item>@drawable/icecreamsandwich5</item>
+        <item>@drawable/donutpng1</item>
+        <item>@drawable/froyopng1</item>
+        <item>@drawable/icecreamsandwich5</item>
+        <item>@drawable/donutpng1</item>
+        <item>@drawable/froyopng1</item>
+        <item>@drawable/icecreamsandwich5</item>
+
+    </array>
+
+    <string-array name="pastry_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Ice Cream Sandwich</item>
+
+    </string-array>
+
+    <string-array name="pastry_description">
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice creams have your desired flavours and fillings</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice creams have your desired flavours and fillings</item>
+        <item>Donuts are glazed and sprinkled with candy</item>
+        <item>Froyo is a premium self-serve frozen yogurt</item>
+        <item>Ice creams have your desired flavours and fillings</item>
+
+    </string-array>
+
+
+</resources>
